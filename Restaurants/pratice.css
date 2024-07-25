@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.foodverity1 {
+  display: flex;
+}
+.foodverity1img img {
+  width: 500px;
+  height: 500px;
+}
+.verity1content h1 {
+  color: red;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+.verity1content p {
+  padding: 20px;
+  margin-top: 20px;
+  word-spacing: 4px;
+  font-size: 20px;
+}
+.verity1content h1:hover {
+  color: rgb(210, 30, 90);
+}
+.foodverity2 {
+  display: flex;
+  flex-flow: row-reverse;
+}
